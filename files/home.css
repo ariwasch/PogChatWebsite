@@ -52,11 +52,18 @@ body {
 }
 
 .logo {
-    width: 500px;
+    width: 150px;
     max-width: 90vw;
     animation: rotation 15s linear infinite;
     margin-bottom: 15px;
 }
+.logo2 {
+    width: 300px;
+    max-width: 90vw;
+    margin-bottom: 15px;
+}
+
+
 @keyframes over {
     from { transform: translateX(-100vw); }
     to   { transform: translateX(0); }
@@ -81,6 +88,11 @@ body {
 h1, .download-buttons {
     animation: 3s fade;
 }
+h5, .download-buttons {
+    animation: 3s fade;
+}
+
+
 
 @keyframes fade {
     0% { opacity: 0; }
@@ -100,3 +112,4 @@ h1, .download-buttons {
         width: 50%;
     }
 }
+
