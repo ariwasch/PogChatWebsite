@@ -91,6 +91,14 @@ h1, .download-buttons {
 h5, .download-buttons {
     animation: 3s fade;
 }
+h3, .download-buttons {
+    animation: 3s fade;
+}
+h4, .download-buttons {
+    animation: 3s fade;
+}
+
+
 
 
 
