@@ -3,6 +3,7 @@ body {
 }
 .columns {
     white-space: nowrap;
+    
 }
 .column {
     white-space: normal;
@@ -16,7 +17,15 @@ body {
     flex-direction: column;
     align-items: center;
     padding-bottom: 0;
+    
 }
+
+/* .column.info2 {
+    background: lightGrey;
+    border-radius: 6px;
+       
+} */
+
 .column.previews {
     flex-direction: row;
     align-items: center;
@@ -56,11 +65,17 @@ body {
     max-width: 90vw;
     animation: rotation 15s linear infinite;
     margin-bottom: 15px;
+    animation: over 1s ease-out;
+
+
 }
 .logo2 {
     width: 300px;
     max-width: 90vw;
     margin-bottom: 15px;
+    animation: over 1s ease-out;
+
+
 }
 
 
